@@ -1,0 +1,88 @@
+{
+  "tests": [
+    {
+      "test_name": "Urine Colour",
+      "value": null,
+      "unit": null,
+      "reference_range": "Pale Yellow",
+      "status": "normal"
+    },
+    {
+      "test_name": "Urine Clarity",
+      "value": null,
+      "unit": null,
+      "reference_range": "Clear",
+      "status": "normal"
+    },
+    {
+      "test_name": "Urine pH",
+      "value": 6.5,
+      "unit": null,
+      "reference_range": "5.0 - 8.0",
+      "status": "normal"
+    },
+    {
+      "test_name": "Urine Specific Gravity",
+      "value": 1.02,
+      "unit": null,
+      "reference_range": "1.005 - 1.030",
+      "status": "normal"
+    },
+    {
+      "test_name": "Urine Albumin",
+      "value": null,
+      "unit": null,
+      "reference_range": "Negative",
+      "status": "normal"
+    },
+    {
+      "test_name": "Urine Sugar",
+      "value": null,
+      "unit": null,
+      "reference_range": "Negative",
+      "status": "high"
+    },
+    {
+      "test_name": "Urine Ketones",
+      "value": null,
+      "unit": null,
+      "reference_range": "Negative",
+      "status": "normal"
+    },
+    {
+      "test_name": "Urine Leucocytes",
+      "value": 2.5,
+      "unit": "/hpf",
+      "reference_range": "0 - 5 /hpf",
+      "status": "normal"
+    },
+    {
+      "test_name": "Urine Erythrocytes",
+      "value": 1.5,
+      "unit": "/hpf",
+      "reference_range": "Nil /hpf",
+      "status": "high"
+    },
+    {
+      "test_name": "Urine Squamous Epithelial Cells",
+      "value": 1.5,
+      "unit": "/hpf",
+      "reference_range": "0 - 5 /hpf",
+      "status": "normal"
+    },
+    {
+      "test_name": "C-Reactive Protein",
+      "value": 0.5,
+      "unit": "mg/L",
+      "reference_range": "< 5.0 mg/L",
+      "status": "normal"
+    },
+    {
+      "test_name": "Erythrocyte Sedimentation Rate",
+      "value": 13.0,
+      "unit": "mm/hr",
+      "reference_range": "0 - 15 mm/hr",
+      "status": "normal"
+    }
+  ]
+}
