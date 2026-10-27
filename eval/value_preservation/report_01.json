@@ -1,0 +1,102 @@
+{
+  "tests": [
+    {
+      "test_name": "Haemoglobin",
+      "value": 13.5,
+      "unit": "g/dL",
+      "reference_range": "13.0 - 17.0",
+      "status": "normal"
+    },
+    {
+      "test_name": "Total RBC Count",
+      "value": 5.71,
+      "unit": "mill/cumm",
+      "reference_range": "4.50 - 5.50",
+      "status": "high"
+    },
+    {
+      "test_name": "Packed Cell Volume (PCV)",
+      "value": 48.8,
+      "unit": "%",
+      "reference_range": "40.0 - 50.0",
+      "status": "normal"
+    },
+    {
+      "test_name": "MCV",
+      "value": 77.9,
+      "unit": "fL",
+      "reference_range": "83.0 - 101.0",
+      "status": "low"
+    },
+    {
+      "test_name": "MCH",
+      "value": 27.9,
+      "unit": "pg",
+      "reference_range": "27.0 - 32.0",
+      "status": "normal"
+    },
+    {
+      "test_name": "MCHC",
+      "value": 34.2,
+      "unit": "g/dL",
+      "reference_range": "31.5 - 34.5",
+      "status": "normal"
+    },
+    {
+      "test_name": "RDW-CV",
+      "value": 12.2,
+      "unit": "%",
+      "reference_range": "11.6 - 14.0",
+      "status": "normal"
+    },
+    {
+      "test_name": "Total WBC Count",
+      "value": 9200.0,
+      "unit": "/cumm",
+      "reference_range": "4000 - 10000",
+      "status": "normal"
+    },
+    {
+      "test_name": "Neutrophils",
+      "value": 73.0,
+      "unit": "%",
+      "reference_range": "40 - 80",
+      "status": "normal"
+    },
+    {
+      "test_name": "Lymphocytes",
+      "value": 33.0,
+      "unit": "%",
+      "reference_range": "20 - 40",
+      "status": "normal"
+    },
+    {
+      "test_name": "Eosinophils",
+      "value": 0.0,
+      "unit": "%",
+      "reference_range": "1 - 6",
+      "status": "low"
+    },
+    {
+      "test_name": "Monocytes",
+      "value": 8.0,
+      "unit": "%",
+      "reference_range": "2 - 10",
+      "status": "normal"
+    },
+    {
+      "test_name": "Basophils",
+      "value": 1.0,
+      "unit": "%",
+      "reference_range": "0 - 2",
+      "status": "normal"
+    },
+    {
+      "test_name": "Platelet Count",
+      "value": 340000.0,
+      "unit": "/cumm",
+      "reference_range": "150000 - 410000",
+      "status": "normal"
+    }
+  ]
+}

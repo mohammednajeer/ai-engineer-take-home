@@ -1,0 +1,102 @@
+{
+  "tests": [
+    {
+      "test_name": "Haemoglobin",
+      "value": 11.9,
+      "unit": "g/dL",
+      "reference_range": "13.0 - 17.0",
+      "status": "low"
+    },
+    {
+      "test_name": "Total RBC Count",
+      "value": 5.83,
+      "unit": "mill/cumm",
+      "reference_range": "4.50 - 5.50",
+      "status": "high"
+    },
+    {
+      "test_name": "Packed Cell Volume (PCV)",
+      "value": 45.9,
+      "unit": "%",
+      "reference_range": "40.0 - 50.0",
+      "status": "normal"
+    },
+    {
+      "test_name": "MCV",
+      "value": 94.9,
+      "unit": "fL",
+      "reference_range": "83.0 - 101.0",
+      "status": "normal"
+    },
+    {
+      "test_name": "MCH",
+      "value": 28.3,
+      "unit": "pg",
+      "reference_range": "27.0 - 32.0",
+      "status": "normal"
+    },
+    {
+      "test_name": "MCHC",
+      "value": 33.5,
+      "unit": "g/dL",
+      "reference_range": "31.5 - 34.5",
+      "status": "normal"
+    },
+    {
+      "test_name": "RDW-CV",
+      "value": 13.6,
+      "unit": "%",
+      "reference_range": "11.6 - 14.0",
+      "status": "normal"
+    },
+    {
+      "test_name": "Total WBC Count",
+      "value": 2800.0,
+      "unit": "/cumm",
+      "reference_range": "4000 - 10000",
+      "status": "low"
+    },
+    {
+      "test_name": "Neutrophils",
+      "value": 32.0,
+      "unit": "%",
+      "reference_range": "40 - 80",
+      "status": "low"
+    },
+    {
+      "test_name": "Lymphocytes",
+      "value": 16.0,
+      "unit": "%",
+      "reference_range": "20 - 40",
+      "status": "low"
+    },
+    {
+      "test_name": "Eosinophils",
+      "value": 5.0,
+      "unit": "%",
+      "reference_range": "1 - 6",
+      "status": "normal"
+    },
+    {
+      "test_name": "Monocytes",
+      "value": 6.0,
+      "unit": "%",
+      "reference_range": "2 - 10",
+      "status": "normal"
+    },
+    {
+      "test_name": "Basophils",
+      "value": 2.0,
+      "unit": "%",
+      "reference_range": "0 - 2",
+      "status": "normal"
+    },
+    {
+      "test_name": "Platelet Count",
+      "value": 3.03,
+      "unit": "lakh/cumm",
+      "reference_range": "1.50 - 4.10",
+      "status": "normal"
+    }
+  ]
+}

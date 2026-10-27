@@ -28,7 +28,11 @@ Return JSON in exactly this format:
 
 Rules:
 - Use the standard medical name for each test.
-- value must be a number.
+- Preserve the reported value accurately. Use a number for a single
+  numeric result. Use a string for qualitative results such as
+  "Dark Yellow" or "Negative", inequalities such as "< 0.5",
+  and ranges such as "2-3". Use null only when no result is reported.
+  Do not invent or calculate a replacement value.
 - If a reference range is missing from the report, fill in the standard reference range for that test.
 - status is "normal", "high" or "low", based on the value and the reference range.
 - Be thorough. Do not miss any tests.
@@ -146,11 +150,22 @@ def parse(text: str) -> list[dict]:
         return []
 
 
-def to_number(value):
-    try:
-        return float(value)
-    except (TypeError, ValueError):
+def normalize_value(value):
+    if value is None:
         return None
+
+    if isinstance(value, (int, float)) and not isinstance(value, bool):
+        return float(value)
+
+    text = str(value).strip()
+
+    if not text:
+        return None
+
+    try:
+        return float(text)
+    except ValueError:
+        return text
 
 
 def clean(tests: list[dict]) -> list[dict]:
@@ -158,7 +173,7 @@ def clean(tests: list[dict]) -> list[dict]:
     for t in tests:
         out.append({
             "test_name": str(t.get("test_name", "")).strip(),
-            "value": to_number(t.get("value")),
+            "value": normalize_value(t.get("value")),
             "unit": t.get("unit") or None,
             "reference_range": t.get("reference_range") or None,
             "status": t.get("status"),
