@@ -1,0 +1,226 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "measured_at_utc": "2026-10-27T05:35:43.406789+00:00",
+  "latency_seconds": {
+    "report_01": 3.791,
+    "report_02": 3.27,
+    "report_03": 2.644,
+    "report_05": 4.323,
+    "report_06": 4.914,
+    "report_08": 4.289,
+    "report_09": 5.221,
+    "report_11": 9.704
+  },
+  "latency_mean_seconds": 4.769,
+  "latency_median_seconds": 4.306,
+  "per_report": {
+    "report_01": {
+      "gold_rows": 14,
+      "predicted_rows": 14,
+      "name_matched_rows": 14,
+      "missing_gold_names": [],
+      "extra_predicted_names": [],
+      "name_precision": 1.0,
+      "name_recall": 1.0,
+      "value_accuracy_on_name_matches": 0.9285714285714286,
+      "unit_accuracy_on_name_matches": 1.0,
+      "reference_range_accuracy_on_name_matches": 1.0,
+      "exact_row_recall": 0.9285714285714286,
+      "exact_rows": 13,
+      "field_correct_counts": {
+        "value": 13,
+        "unit": 14,
+        "reference_range": 14
+      }
+    },
+    "report_02": {
+      "gold_rows": 16,
+      "predicted_rows": 16,
+      "name_matched_rows": 16,
+      "missing_gold_names": [],
+      "extra_predicted_names": [],
+      "name_precision": 1.0,
+      "name_recall": 1.0,
+      "value_accuracy_on_name_matches": 1.0,
+      "unit_accuracy_on_name_matches": 1.0,
+      "reference_range_accuracy_on_name_matches": 1.0,
+      "exact_row_recall": 1.0,
+      "exact_rows": 16,
+      "field_correct_counts": {
+        "value": 16,
+        "unit": 16,
+        "reference_range": 16
+      }
+    },
+    "report_03": {
+      "gold_rows": 8,
+      "predicted_rows": 8,
+      "name_matched_rows": 8,
+      "missing_gold_names": [],
+      "extra_predicted_names": [],
+      "name_precision": 1.0,
+      "name_recall": 1.0,
+      "value_accuracy_on_name_matches": 1.0,
+      "unit_accuracy_on_name_matches": 1.0,
+      "reference_range_accuracy_on_name_matches": 1.0,
+      "exact_row_recall": 1.0,
+      "exact_rows": 8,
+      "field_correct_counts": {
+        "value": 8,
+        "unit": 8,
+        "reference_range": 8
+      }
+    },
+    "report_05": {
+      "gold_rows": 14,
+      "predicted_rows": 14,
+      "name_matched_rows": 14,
+      "missing_gold_names": [],
+      "extra_predicted_names": [],
+      "name_precision": 1.0,
+      "name_recall": 1.0,
+      "value_accuracy_on_name_matches": 1.0,
+      "unit_accuracy_on_name_matches": 1.0,
+      "reference_range_accuracy_on_name_matches": 1.0,
+      "exact_row_recall": 1.0,
+      "exact_rows": 14,
+      "field_correct_counts": {
+        "value": 14,
+        "unit": 14,
+        "reference_range": 14
+      }
+    },
+    "report_06": {
+      "gold_rows": 12,
+      "predicted_rows": 12,
+      "name_matched_rows": 0,
+      "missing_gold_names": [
+        "Colour",
+        "Clarity",
+        "pH",
+        "Specific Gravity",
+        "Albumin",
+        "Sugar",
+        "Ketones",
+        "Leucocytes",
+        "Erythrocytes",
+        "Squamous Epithelial Cells",
+        "CRP",
+        "E.S.R. (Westergren)"
+      ],
+      "extra_predicted_names": [
+        "Urine Colour",
+        "Urine Clarity",
+        "Urine pH",
+        "Urine Specific Gravity",
+        "Urine Albumin",
+        "Urine Sugar",
+        "Urine Ketones",
+        "Urine Leucocytes",
+        "Urine Erythrocytes",
+        "Urine Squamous Epithelial Cells",
+        "C-Reactive Protein",
+        "Erythrocyte Sedimentation Rate"
+      ],
+      "name_precision": 0.0,
+      "name_recall": 0.0,
+      "value_accuracy_on_name_matches": 0.0,
+      "unit_accuracy_on_name_matches": 0.0,
+      "reference_range_accuracy_on_name_matches": 0.0,
+      "exact_row_recall": 0.0,
+      "exact_rows": 0,
+      "field_correct_counts": {
+        "value": 0,
+        "unit": 0,
+        "reference_range": 0
+      }
+    },
+    "report_08": {
+      "gold_rows": 6,
+      "predicted_rows": 6,
+      "name_matched_rows": 6,
+      "missing_gold_names": [],
+      "extra_predicted_names": [],
+      "name_precision": 1.0,
+      "name_recall": 1.0,
+      "value_accuracy_on_name_matches": 1.0,
+      "unit_accuracy_on_name_matches": 1.0,
+      "reference_range_accuracy_on_name_matches": 1.0,
+      "exact_row_recall": 1.0,
+      "exact_rows": 6,
+      "field_correct_counts": {
+        "value": 6,
+        "unit": 6,
+        "reference_range": 6
+      }
+    },
+    "report_09": {
+      "gold_rows": 14,
+      "predicted_rows": 14,
+      "name_matched_rows": 13,
+      "missing_gold_names": [
+        "Hemoglobin (Hb)"
+      ],
+      "extra_predicted_names": [
+        "Hemoglobin"
+      ],
+      "name_precision": 0.9285714285714286,
+      "name_recall": 0.9285714285714286,
+      "value_accuracy_on_name_matches": 1.0,
+      "unit_accuracy_on_name_matches": 1.0,
+      "reference_range_accuracy_on_name_matches": 1.0,
+      "exact_row_recall": 0.9285714285714286,
+      "exact_rows": 13,
+      "field_correct_counts": {
+        "value": 13,
+        "unit": 13,
+        "reference_range": 13
+      }
+    },
+    "report_11": {
+      "gold_rows": 54,
+      "predicted_rows": 54,
+      "name_matched_rows": 54,
+      "missing_gold_names": [],
+      "extra_predicted_names": [],
+      "name_precision": 1.0,
+      "name_recall": 1.0,
+      "value_accuracy_on_name_matches": 1.0,
+      "unit_accuracy_on_name_matches": 1.0,
+      "reference_range_accuracy_on_name_matches": 1.0,
+      "exact_row_recall": 1.0,
+      "exact_rows": 54,
+      "field_correct_counts": {
+        "value": 54,
+        "unit": 54,
+        "reference_range": 54
+      }
+    }
+  },
+  "aggregate": {
+    "labelled_reports": 8,
+    "gold_rows": 138,
+    "predicted_rows": 138,
+    "name_matched_rows": 125,
+    "name_precision": 0.9057971014492754,
+    "name_recall": 0.9057971014492754,
+    "value_accuracy_on_name_matches": 0.992,
+    "unit_accuracy_on_name_matches": 1.0,
+    "reference_range_accuracy_on_name_matches": 1.0,
+    "exact_rows": 124,
+    "exact_row_recall": 0.8985507246376812,
+    "field_correct_counts": {
+      "value": 124,
+      "unit": 125,
+      "reference_range": 125
+    },
+    "metric_notes": [
+      "Names are normalized for case, punctuation, haemoglobin/hemoglobin spelling, and PCV alias.",
+      "Numeric values use an absolute tolerance of 0.01; units are compared case-insensitively.",
+      "Reference ranges ignore whitespace and normalize dash characters.",
+      "Field accuracies are among rows whose test names matched; missing/extra rows are reflected in name recall/precision.",
+      "These are raw scores against the supplied gold labels; label issues must be documented separately, not silently edited."
+    ]
+  },
+  "cost_note": "This runner records latency, not provider billing. Record actual spend from the provider dashboard or calculate an estimate from current model pricing and usage; do not assume cost is zero."
+}

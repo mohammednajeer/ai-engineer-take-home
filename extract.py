@@ -33,7 +33,12 @@ Rules:
   "Dark Yellow" or "Negative", inequalities such as "< 0.5",
   and ranges such as "2-3". Use null only when no result is reported.
   Do not invent or calculate a replacement value.
-- If a reference range is missing from the report, fill in the standard reference range for that test.
+
+- Copy each reference range exactly as printed in the report, including units and inequality signs when present.
+- If a reference range is not printed for a test, return null for reference_range.
+- Never invent, infer, calculate, look up, or fill in a standard reference range.
+- Never copy a reference range from another test.
+
 - status is "normal", "high" or "low", based on the value and the reference range.
 - Be thorough. Do not miss any tests.
 """
