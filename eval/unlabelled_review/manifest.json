@@ -1,0 +1,35 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "created_at_utc": "2026-10-27T06:10:58.500963+00:00",
+  "purpose": "Qualitative review only; these four reports have no supplied gold labels.",
+  "reports": {
+    "report_04": {
+      "status": "success",
+      "latency_seconds": 2.311,
+      "source_file": "reports\\report_04.pdf",
+      "output_file": "eval\\unlabelled_review\\report_04.json",
+      "extracted_rows": 9
+    },
+    "report_07": {
+      "status": "success",
+      "latency_seconds": 4.425,
+      "source_file": "reports\\report_07.pdf",
+      "output_file": "eval\\unlabelled_review\\report_07.json",
+      "extracted_rows": 10
+    },
+    "report_10": {
+      "status": "success",
+      "latency_seconds": 3.278,
+      "source_file": "reports\\report_10.jpg",
+      "output_file": "eval\\unlabelled_review\\report_10.json",
+      "extracted_rows": 9
+    },
+    "report_12": {
+      "status": "success",
+      "latency_seconds": 2.028,
+      "source_file": "reports\\report_12.jpg",
+      "output_file": "eval\\unlabelled_review\\report_12.json",
+      "extracted_rows": 0
+    }
+  }
+}

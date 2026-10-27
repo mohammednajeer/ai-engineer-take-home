@@ -1,0 +1,67 @@
+{
+  "tests": [
+    {
+      "test_name": "T3",
+      "value": 177.0,
+      "unit": "ng/dL",
+      "reference_range": "80 - 200 ng/dL",
+      "status": "normal"
+    },
+    {
+      "test_name": "T4",
+      "value": 8.2,
+      "unit": "µg/dL",
+      "reference_range": "5.1 - 14.1 µg/dL",
+      "status": "normal"
+    },
+    {
+      "test_name": "TSH",
+      "value": 1.84,
+      "unit": "µIU/mL",
+      "reference_range": "0.27 - 4.20 µIU/mL",
+      "status": "normal"
+    },
+    {
+      "test_name": "S. Urea",
+      "value": 9.0,
+      "unit": "mg/dL",
+      "reference_range": "15 - 40 mg/dL",
+      "status": "low"
+    },
+    {
+      "test_name": "S. Creatinine",
+      "value": 0.85,
+      "unit": "mg/dL",
+      "reference_range": "0.70 - 1.30 mg/dL",
+      "status": "normal"
+    },
+    {
+      "test_name": "S. Uric Acid",
+      "value": 6.7,
+      "unit": "mg/dL",
+      "reference_range": "3.5 - 7.2 mg/dL",
+      "status": "normal"
+    },
+    {
+      "test_name": "S. Sodium",
+      "value": 138.0,
+      "unit": "mmol/L",
+      "reference_range": "136 - 146 mmol/L",
+      "status": "normal"
+    },
+    {
+      "test_name": "S. Potassium",
+      "value": 3.1,
+      "unit": "mmol/L",
+      "reference_range": "3.5 - 5.1 mmol/L",
+      "status": "low"
+    },
+    {
+      "test_name": "S. Chloride",
+      "value": 109.0,
+      "unit": "mmol/L",
+      "reference_range": "98 - 107 mmol/L",
+      "status": "high"
+    }
+  ]
+}
