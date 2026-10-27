@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Lab report extraction",
+  "type": "object",
+  "required": ["tests"],
+  "properties": {
+    "tests": {
+      "type": "array",
+      "description": "One entry per result row on the report, in the order printed.",
+      "items": {
+        "type": "object",
+        "required": ["test_name", "value", "unit", "reference_range"],
+        "properties": {
+          "test_name": {"type": "string"},
+          "value": {"type": ["string", "number", "null"]},
+          "unit": {"type": ["string", "null"]},
+          "reference_range": {"type": ["string", "null"]}
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

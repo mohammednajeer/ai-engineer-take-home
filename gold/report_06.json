@@ -1,0 +1,76 @@
+{
+  "tests": [
+    {
+      "test_name": "Colour",
+      "value": "Dark Yellow",
+      "unit": null,
+      "reference_range": "Pale Yellow"
+    },
+    {
+      "test_name": "Clarity",
+      "value": "Clear",
+      "unit": null,
+      "reference_range": "Clear"
+    },
+    {
+      "test_name": "pH",
+      "value": "6.5",
+      "unit": null,
+      "reference_range": "5.0 - 8.0"
+    },
+    {
+      "test_name": "Specific Gravity",
+      "value": "1.020",
+      "unit": null,
+      "reference_range": "1.005 - 1.030"
+    },
+    {
+      "test_name": "Albumin",
+      "value": "Negative",
+      "unit": null,
+      "reference_range": "Negative"
+    },
+    {
+      "test_name": "Sugar",
+      "value": "Present (+)",
+      "unit": null,
+      "reference_range": "Negative"
+    },
+    {
+      "test_name": "Ketones",
+      "value": "Negative",
+      "unit": null,
+      "reference_range": "Negative"
+    },
+    {
+      "test_name": "Leucocytes",
+      "value": "2-3",
+      "unit": "/hpf",
+      "reference_range": "0 - 5"
+    },
+    {
+      "test_name": "Erythrocytes",
+      "value": "1-2",
+      "unit": "/hpf",
+      "reference_range": "Nil"
+    },
+    {
+      "test_name": "Squamous Epithelial Cells",
+      "value": "1-2",
+      "unit": "/hpf",
+      "reference_range": "0 - 5"
+    },
+    {
+      "test_name": "CRP",
+      "value": "< 0.5",
+      "unit": "mg/L",
+      "reference_range": "< 5.0"
+    },
+    {
+      "test_name": "E.S.R. (Westergren)",
+      "value": "13",
+      "unit": "mm/hr",
+      "reference_range": "0 - 15"
+    }
+  ]
+}

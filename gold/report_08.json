@@ -1,0 +1,40 @@
+{
+  "tests": [
+    {
+      "test_name": "S. Cholesterol",
+      "value": "155",
+      "unit": "mg/dL",
+      "reference_range": "< 200"
+    },
+    {
+      "test_name": "TG",
+      "value": "106",
+      "unit": "mg/dL",
+      "reference_range": "< 150"
+    },
+    {
+      "test_name": "HDL-C",
+      "value": "60",
+      "unit": "mg/dL",
+      "reference_range": "> 40"
+    },
+    {
+      "test_name": "LDL-C (Direct)",
+      "value": "73",
+      "unit": "mg/dL",
+      "reference_range": "< 100"
+    },
+    {
+      "test_name": "VLDL",
+      "value": "23",
+      "unit": "mg/dL",
+      "reference_range": "< 30"
+    },
+    {
+      "test_name": "Chol/HDL",
+      "value": "4.3",
+      "unit": null,
+      "reference_range": "< 5.0"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "tests": [
+    {
+      "test_name": "T3",
+      "value": "179",
+      "unit": "ng/dL",
+      "reference_range": null
+    },
+    {
+      "test_name": "T4",
+      "value": "10.9",
+      "unit": "µg/dL",
+      "reference_range": null
+    },
+    {
+      "test_name": "TSH (Ultrasensitive)",
+      "value": "2.49",
+      "unit": "µIU/mL",
+      "reference_range": "0.27 - 4.20"
+    },
+    {
+      "test_name": "Vit D Total",
+      "value": "58.9",
+      "unit": "ng/mL",
+      "reference_range": "30.0 - 100.0"
+    },
+    {
+      "test_name": "Vit B12",
+      "value": "359",
+      "unit": "pg/mL",
+      "reference_range": "197 - 771"
+    },
+    {
+      "test_name": "Glycated Hb",
+      "value": "6.0",
+      "unit": "%",
+      "reference_range": null
+    },
+    {
+      "test_name": "FBS",
+      "value": "88",
+      "unit": "mg/dL",
+      "reference_range": "70 - 100"
+    },
+    {
+      "test_name": "PPBS",
+      "value": "95",
+      "unit": "mg/dL",
+      "reference_range": "70 - 140"
+    }
+  ]
+}
