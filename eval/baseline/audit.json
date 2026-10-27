@@ -1,0 +1,766 @@
+{
+  "reports": [
+    {
+      "report_id": "report_01",
+      "gold_rows": 14,
+      "predicted_rows": 14,
+      "name_matched_rows": 14,
+      "exact_rows": 13,
+      "missing_gold_rows": [],
+      "extra_predicted_rows": [],
+      "field_mismatches": [
+        {
+          "test_name_gold": "Platelet Count",
+          "test_name_predicted": "Platelet Count",
+          "mismatches": {
+            "value": {
+              "gold": "304000",
+              "predicted": 340000.0
+            }
+          },
+          "gold_row": {
+            "test_name": "Platelet Count",
+            "value": "304000",
+            "unit": "/cumm",
+            "reference_range": "150000 - 410000"
+          },
+          "predicted_row": {
+            "test_name": "Platelet Count",
+            "value": 340000.0,
+            "unit": "/cumm",
+            "reference_range": "150000 - 410000",
+            "status": "normal"
+          }
+        }
+      ]
+    },
+    {
+      "report_id": "report_02",
+      "gold_rows": 16,
+      "predicted_rows": 16,
+      "name_matched_rows": 16,
+      "exact_rows": 16,
+      "missing_gold_rows": [],
+      "extra_predicted_rows": [],
+      "field_mismatches": []
+    },
+    {
+      "report_id": "report_03",
+      "gold_rows": 8,
+      "predicted_rows": 8,
+      "name_matched_rows": 3,
+      "exact_rows": 0,
+      "missing_gold_rows": [
+        {
+          "test_name": "TSH (Ultrasensitive)",
+          "gold_row": {
+            "test_name": "TSH (Ultrasensitive)",
+            "value": "2.49",
+            "unit": "µIU/mL",
+            "reference_range": "0.27 - 4.20"
+          }
+        },
+        {
+          "test_name": "Vit D Total",
+          "gold_row": {
+            "test_name": "Vit D Total",
+            "value": "58.9",
+            "unit": "ng/mL",
+            "reference_range": "30.0 - 100.0"
+          }
+        },
+        {
+          "test_name": "Vit B12",
+          "gold_row": {
+            "test_name": "Vit B12",
+            "value": "359",
+            "unit": "pg/mL",
+            "reference_range": "197 - 771"
+          }
+        },
+        {
+          "test_name": "FBS",
+          "gold_row": {
+            "test_name": "FBS",
+            "value": "88",
+            "unit": "mg/dL",
+            "reference_range": "70 - 100"
+          }
+        },
+        {
+          "test_name": "PPBS",
+          "gold_row": {
+            "test_name": "PPBS",
+            "value": "95",
+            "unit": "mg/dL",
+            "reference_range": "70 - 140"
+          }
+        }
+      ],
+      "extra_predicted_rows": [
+        {
+          "test_name": "TSH",
+          "predicted_row": {
+            "test_name": "TSH",
+            "value": 2.49,
+            "unit": "µIU/mL",
+            "reference_range": "0.27 - 4.20",
+            "status": "normal"
+          }
+        },
+        {
+          "test_name": "Vitamin D Total",
+          "predicted_row": {
+            "test_name": "Vitamin D Total",
+            "value": 58.9,
+            "unit": "ng/mL",
+            "reference_range": "30.0 - 100.0",
+            "status": "normal"
+          }
+        },
+        {
+          "test_name": "Vitamin B12",
+          "predicted_row": {
+            "test_name": "Vitamin B12",
+            "value": 359.0,
+            "unit": "pg/mL",
+            "reference_range": "197 - 771",
+            "status": "normal"
+          }
+        },
+        {
+          "test_name": "Fasting Blood Sugar",
+          "predicted_row": {
+            "test_name": "Fasting Blood Sugar",
+            "value": 88.0,
+            "unit": "mg/dL",
+            "reference_range": "70 - 100",
+            "status": "normal"
+          }
+        },
+        {
+          "test_name": "Postprandial Blood Sugar",
+          "predicted_row": {
+            "test_name": "Postprandial Blood Sugar",
+            "value": 95.0,
+            "unit": "mg/dL",
+            "reference_range": "70 - 140",
+            "status": "normal"
+          }
+        }
+      ],
+      "field_mismatches": [
+        {
+          "test_name_gold": "T3",
+          "test_name_predicted": "T3",
+          "mismatches": {
+            "reference_range": {
+              "gold": null,
+              "predicted": "80 - 200"
+            }
+          },
+          "gold_row": {
+            "test_name": "T3",
+            "value": "179",
+            "unit": "ng/dL",
+            "reference_range": null
+          },
+          "predicted_row": {
+            "test_name": "T3",
+            "value": 179.0,
+            "unit": "ng/dL",
+            "reference_range": "80 - 200",
+            "status": "normal"
+          }
+        },
+        {
+          "test_name_gold": "T4",
+          "test_name_predicted": "T4",
+          "mismatches": {
+            "reference_range": {
+              "gold": null,
+              "predicted": "5.1 - 14.1"
+            }
+          },
+          "gold_row": {
+            "test_name": "T4",
+            "value": "10.9",
+            "unit": "µg/dL",
+            "reference_range": null
+          },
+          "predicted_row": {
+            "test_name": "T4",
+            "value": 10.9,
+            "unit": "µg/dL",
+            "reference_range": "5.1 - 14.1",
+            "status": "normal"
+          }
+        },
+        {
+          "test_name_gold": "Glycated Hb",
+          "test_name_predicted": "Glycated Hb",
+          "mismatches": {
+            "reference_range": {
+              "gold": null,
+              "predicted": "< 5.7"
+            }
+          },
+          "gold_row": {
+            "test_name": "Glycated Hb",
+            "value": "6.0",
+            "unit": "%",
+            "reference_range": null
+          },
+          "predicted_row": {
+            "test_name": "Glycated Hb",
+            "value": 6.0,
+            "unit": "%",
+            "reference_range": "< 5.7",
+            "status": "high"
+          }
+        }
+      ]
+    },
+    {
+      "report_id": "report_05",
+      "gold_rows": 14,
+      "predicted_rows": 14,
+      "name_matched_rows": 14,
+      "exact_rows": 14,
+      "missing_gold_rows": [],
+      "extra_predicted_rows": [],
+      "field_mismatches": []
+    },
+    {
+      "report_id": "report_06",
+      "gold_rows": 12,
+      "predicted_rows": 12,
+      "name_matched_rows": 0,
+      "exact_rows": 0,
+      "missing_gold_rows": [
+        {
+          "test_name": "Colour",
+          "gold_row": {
+            "test_name": "Colour",
+            "value": "Dark Yellow",
+            "unit": null,
+            "reference_range": "Pale Yellow"
+          }
+        },
+        {
+          "test_name": "Clarity",
+          "gold_row": {
+            "test_name": "Clarity",
+            "value": "Clear",
+            "unit": null,
+            "reference_range": "Clear"
+          }
+        },
+        {
+          "test_name": "pH",
+          "gold_row": {
+            "test_name": "pH",
+            "value": "6.5",
+            "unit": null,
+            "reference_range": "5.0 - 8.0"
+          }
+        },
+        {
+          "test_name": "Specific Gravity",
+          "gold_row": {
+            "test_name": "Specific Gravity",
+            "value": "1.020",
+            "unit": null,
+            "reference_range": "1.005 - 1.030"
+          }
+        },
+        {
+          "test_name": "Albumin",
+          "gold_row": {
+            "test_name": "Albumin",
+            "value": "Negative",
+            "unit": null,
+            "reference_range": "Negative"
+          }
+        },
+        {
+          "test_name": "Sugar",
+          "gold_row": {
+            "test_name": "Sugar",
+            "value": "Present (+)",
+            "unit": null,
+            "reference_range": "Negative"
+          }
+        },
+        {
+          "test_name": "Ketones",
+          "gold_row": {
+            "test_name": "Ketones",
+            "value": "Negative",
+            "unit": null,
+            "reference_range": "Negative"
+          }
+        },
+        {
+          "test_name": "Leucocytes",
+          "gold_row": {
+            "test_name": "Leucocytes",
+            "value": "2-3",
+            "unit": "/hpf",
+            "reference_range": "0 - 5"
+          }
+        },
+        {
+          "test_name": "Erythrocytes",
+          "gold_row": {
+            "test_name": "Erythrocytes",
+            "value": "1-2",
+            "unit": "/hpf",
+            "reference_range": "Nil"
+          }
+        },
+        {
+          "test_name": "Squamous Epithelial Cells",
+          "gold_row": {
+            "test_name": "Squamous Epithelial Cells",
+            "value": "1-2",
+            "unit": "/hpf",
+            "reference_range": "0 - 5"
+          }
+        },
+        {
+          "test_name": "CRP",
+          "gold_row": {
+            "test_name": "CRP",
+            "value": "< 0.5",
+            "unit": "mg/L",
+            "reference_range": "< 5.0"
+          }
+        },
+        {
+          "test_name": "E.S.R. (Westergren)",
+          "gold_row": {
+            "test_name": "E.S.R. (Westergren)",
+            "value": "13",
+            "unit": "mm/hr",
+            "reference_range": "0 - 15"
+          }
+        }
+      ],
+      "extra_predicted_rows": [
+        {
+          "test_name": "Urine Color",
+          "predicted_row": {
+            "test_name": "Urine Color",
+            "value": null,
+            "unit": null,
+            "reference_range": "Pale Yellow",
+            "status": "normal"
+          }
+        },
+        {
+          "test_name": "Urine Clarity",
+          "predicted_row": {
+            "test_name": "Urine Clarity",
+            "value": null,
+            "unit": null,
+            "reference_range": "Clear",
+            "status": "normal"
+          }
+        },
+        {
+          "test_name": "Urine pH",
+          "predicted_row": {
+            "test_name": "Urine pH",
+            "value": 6.5,
+            "unit": null,
+            "reference_range": "5.0 - 8.0",
+            "status": "normal"
+          }
+        },
+        {
+          "test_name": "Urine Specific Gravity",
+          "predicted_row": {
+            "test_name": "Urine Specific Gravity",
+            "value": 1.02,
+            "unit": null,
+            "reference_range": "1.005 - 1.030",
+            "status": "normal"
+          }
+        },
+        {
+          "test_name": "Urine Albumin",
+          "predicted_row": {
+            "test_name": "Urine Albumin",
+            "value": null,
+            "unit": null,
+            "reference_range": "Negative",
+            "status": "normal"
+          }
+        },
+        {
+          "test_name": "Urine Sugar",
+          "predicted_row": {
+            "test_name": "Urine Sugar",
+            "value": null,
+            "unit": null,
+            "reference_range": "Negative",
+            "status": "high"
+          }
+        },
+        {
+          "test_name": "Urine Ketones",
+          "predicted_row": {
+            "test_name": "Urine Ketones",
+            "value": null,
+            "unit": null,
+            "reference_range": "Negative",
+            "status": "normal"
+          }
+        },
+        {
+          "test_name": "Urine Leucocytes",
+          "predicted_row": {
+            "test_name": "Urine Leucocytes",
+            "value": 2.5,
+            "unit": "/hpf",
+            "reference_range": "0 - 5 /hpf",
+            "status": "normal"
+          }
+        },
+        {
+          "test_name": "Urine Erythrocytes",
+          "predicted_row": {
+            "test_name": "Urine Erythrocytes",
+            "value": 1.5,
+            "unit": "/hpf",
+            "reference_range": "Nil /hpf",
+            "status": "high"
+          }
+        },
+        {
+          "test_name": "Urine Squamous Epithelial Cells",
+          "predicted_row": {
+            "test_name": "Urine Squamous Epithelial Cells",
+            "value": 1.5,
+            "unit": "/hpf",
+            "reference_range": "0 - 5 /hpf",
+            "status": "normal"
+          }
+        },
+        {
+          "test_name": "C-Reactive Protein",
+          "predicted_row": {
+            "test_name": "C-Reactive Protein",
+            "value": 0.5,
+            "unit": "mg/L",
+            "reference_range": "< 5.0 mg/L",
+            "status": "normal"
+          }
+        },
+        {
+          "test_name": "Erythrocyte Sedimentation Rate",
+          "predicted_row": {
+            "test_name": "Erythrocyte Sedimentation Rate",
+            "value": 13.0,
+            "unit": "mm/hr",
+            "reference_range": "0 - 15 mm/hr",
+            "status": "normal"
+          }
+        }
+      ],
+      "field_mismatches": []
+    },
+    {
+      "report_id": "report_08",
+      "gold_rows": 6,
+      "predicted_rows": 6,
+      "name_matched_rows": 6,
+      "exact_rows": 6,
+      "missing_gold_rows": [],
+      "extra_predicted_rows": [],
+      "field_mismatches": []
+    },
+    {
+      "report_id": "report_09",
+      "gold_rows": 14,
+      "predicted_rows": 14,
+      "name_matched_rows": 14,
+      "exact_rows": 13,
+      "missing_gold_rows": [],
+      "extra_predicted_rows": [],
+      "field_mismatches": [
+        {
+          "test_name_gold": "Platelets",
+          "test_name_predicted": "Platelets",
+          "mismatches": {
+            "reference_range": {
+              "gold": "1,50,000 - 4,10,000",
+              "predicted": "150000 - 410000"
+            }
+          },
+          "gold_row": {
+            "test_name": "Platelets",
+            "value": "2,29,000",
+            "unit": "/cumm",
+            "reference_range": "1,50,000 - 4,10,000"
+          },
+          "predicted_row": {
+            "test_name": "Platelets",
+            "value": 229000.0,
+            "unit": "/cumm",
+            "reference_range": "150000 - 410000",
+            "status": "normal"
+          }
+        }
+      ]
+    },
+    {
+      "report_id": "report_11",
+      "gold_rows": 54,
+      "predicted_rows": 30,
+      "name_matched_rows": 29,
+      "exact_rows": 29,
+      "missing_gold_rows": [
+        {
+          "test_name": "Hemoglobin (Hb)",
+          "gold_row": {
+            "test_name": "Hemoglobin (Hb)",
+            "value": "15.0",
+            "unit": "g/dL",
+            "reference_range": "13.0 - 17.0"
+          }
+        },
+        {
+          "test_name": "Urea",
+          "gold_row": {
+            "test_name": "Urea",
+            "value": "42",
+            "unit": "mg/dL",
+            "reference_range": "15 - 40"
+          }
+        },
+        {
+          "test_name": "Creatinine",
+          "gold_row": {
+            "test_name": "Creatinine",
+            "value": "1.00",
+            "unit": "mg/dL",
+            "reference_range": "0.70 - 1.30"
+          }
+        },
+        {
+          "test_name": "Serum Uric Acid",
+          "gold_row": {
+            "test_name": "Serum Uric Acid",
+            "value": "6.5",
+            "unit": "mg/dL",
+            "reference_range": "3.5 - 7.2"
+          }
+        },
+        {
+          "test_name": "Sodium (Na+)",
+          "gold_row": {
+            "test_name": "Sodium (Na+)",
+            "value": "142",
+            "unit": "mmol/L",
+            "reference_range": "136 - 146"
+          }
+        },
+        {
+          "test_name": "Potassium (K+)",
+          "gold_row": {
+            "test_name": "Potassium (K+)",
+            "value": "3.9",
+            "unit": "mmol/L",
+            "reference_range": "3.5 - 5.1"
+          }
+        },
+        {
+          "test_name": "Chloride (Cl-)",
+          "gold_row": {
+            "test_name": "Chloride (Cl-)",
+            "value": "100",
+            "unit": "mmol/L",
+            "reference_range": "98 - 107"
+          }
+        },
+        {
+          "test_name": "Triiodothyronine (T3)",
+          "gold_row": {
+            "test_name": "Triiodothyronine (T3)",
+            "value": "186",
+            "unit": "ng/dL",
+            "reference_range": "80 - 200"
+          }
+        },
+        {
+          "test_name": "Thyroxine (T4)",
+          "gold_row": {
+            "test_name": "Thyroxine (T4)",
+            "value": "13.2",
+            "unit": "µg/dL",
+            "reference_range": "5.1 - 14.1"
+          }
+        },
+        {
+          "test_name": "Thyroid Stimulating Hormone",
+          "gold_row": {
+            "test_name": "Thyroid Stimulating Hormone",
+            "value": "1.45",
+            "unit": "µIU/mL",
+            "reference_range": "0.27 - 4.20"
+          }
+        },
+        {
+          "test_name": "Glycosylated Haemoglobin (HbA1c)",
+          "gold_row": {
+            "test_name": "Glycosylated Haemoglobin (HbA1c)",
+            "value": "3.6",
+            "unit": "%",
+            "reference_range": "< 5.7"
+          }
+        },
+        {
+          "test_name": "Glucose - Fasting",
+          "gold_row": {
+            "test_name": "Glucose - Fasting",
+            "value": "94",
+            "unit": "mg/dL",
+            "reference_range": "70 - 100"
+          }
+        },
+        {
+          "test_name": "Glucose - PP",
+          "gold_row": {
+            "test_name": "Glucose - PP",
+            "value": "80",
+            "unit": "mg/dL",
+            "reference_range": "70 - 140"
+          }
+        },
+        {
+          "test_name": "25-Hydroxy Vitamin D",
+          "gold_row": {
+            "test_name": "25-Hydroxy Vitamin D",
+            "value": "118.8",
+            "unit": "ng/mL",
+            "reference_range": "30.0 - 100.0"
+          }
+        },
+        {
+          "test_name": "Cyanocobalamin (B12)",
+          "gold_row": {
+            "test_name": "Cyanocobalamin (B12)",
+            "value": "498",
+            "unit": "pg/mL",
+            "reference_range": "197 - 771"
+          }
+        },
+        {
+          "test_name": "Color",
+          "gold_row": {
+            "test_name": "Color",
+            "value": "Pale Yellow",
+            "unit": null,
+            "reference_range": "Pale Yellow"
+          }
+        },
+        {
+          "test_name": "Appearance",
+          "gold_row": {
+            "test_name": "Appearance",
+            "value": "Clear",
+            "unit": null,
+            "reference_range": "Clear"
+          }
+        },
+        {
+          "test_name": "Reaction (pH)",
+          "gold_row": {
+            "test_name": "Reaction (pH)",
+            "value": "6.0",
+            "unit": null,
+            "reference_range": "5.0 - 8.0"
+          }
+        },
+        {
+          "test_name": "Sp. Gravity",
+          "gold_row": {
+            "test_name": "Sp. Gravity",
+            "value": "1.015",
+            "unit": null,
+            "reference_range": "1.005 - 1.030"
+          }
+        },
+        {
+          "test_name": "Urine Protein",
+          "gold_row": {
+            "test_name": "Urine Protein",
+            "value": "Negative",
+            "unit": null,
+            "reference_range": "Negative"
+          }
+        },
+        {
+          "test_name": "Urine Glucose",
+          "gold_row": {
+            "test_name": "Urine Glucose",
+            "value": "Negative",
+            "unit": null,
+            "reference_range": "Negative"
+          }
+        },
+        {
+          "test_name": "Ketone Bodies",
+          "gold_row": {
+            "test_name": "Ketone Bodies",
+            "value": "Negative",
+            "unit": null,
+            "reference_range": "Negative"
+          }
+        },
+        {
+          "test_name": "Pus Cells (WBC)",
+          "gold_row": {
+            "test_name": "Pus Cells (WBC)",
+            "value": "8-10",
+            "unit": "/hpf",
+            "reference_range": "0 - 5"
+          }
+        },
+        {
+          "test_name": "RBC",
+          "gold_row": {
+            "test_name": "RBC",
+            "value": "Nil",
+            "unit": "/hpf",
+            "reference_range": "Nil"
+          }
+        },
+        {
+          "test_name": "Epithelial Cells",
+          "gold_row": {
+            "test_name": "Epithelial Cells",
+            "value": "3-4",
+            "unit": "/hpf",
+            "reference_range": "0 - 5"
+          }
+        }
+      ],
+      "extra_predicted_rows": [
+        {
+          "test_name": "Hemoglobin",
+          "predicted_row": {
+            "test_name": "Hemoglobin",
+            "value": 15.0,
+            "unit": "g/dL",
+            "reference_range": "13.0 - 17.0",
+            "status": "normal"
+          }
+        }
+      ],
+      "field_mismatches": []
+    }
+  ]
+}
