@@ -1,0 +1,131 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "created_at_utc": "2026-10-27T05:59:13.393754+00:00",
+  "hypothesis": "An explicit second-pass completeness check may recover omitted rows without changing the extraction pipeline.",
+  "reports": {
+    "report_06": {
+      "latency_seconds": 5.558,
+      "baseline_exact_rows": 6,
+      "experiment_exact_rows": 7,
+      "gold_rows": 12,
+      "baseline_exact_row_recall": 0.5,
+      "experiment_exact_row_recall": 0.5833,
+      "baseline_name_matched_rows": 11,
+      "experiment_name_matched_rows": 11,
+      "missing_gold_names": [
+        "E.S.R. (Westergren)"
+      ],
+      "extra_predicted_names": [
+        "E.S.R."
+      ],
+      "field_mismatches": [
+        {
+          "gold_test_name": "Leucocytes",
+          "predicted_test_name": "Leucocytes",
+          "checks": {
+            "value": true,
+            "unit": true,
+            "reference_range": false
+          },
+          "gold_row": {
+            "test_name": "Leucocytes",
+            "value": "2-3",
+            "unit": "/hpf",
+            "reference_range": "0 - 5"
+          },
+          "predicted_row": {
+            "test_name": "Leucocytes",
+            "value": "2-3",
+            "unit": "/hpf",
+            "reference_range": "0 - 5 /hpf",
+            "status": "normal"
+          }
+        },
+        {
+          "gold_test_name": "Erythrocytes",
+          "predicted_test_name": "Erythrocytes",
+          "checks": {
+            "value": true,
+            "unit": true,
+            "reference_range": false
+          },
+          "gold_row": {
+            "test_name": "Erythrocytes",
+            "value": "1-2",
+            "unit": "/hpf",
+            "reference_range": "Nil"
+          },
+          "predicted_row": {
+            "test_name": "Erythrocytes",
+            "value": "1-2",
+            "unit": "/hpf",
+            "reference_range": "Nil /hpf",
+            "status": "high"
+          }
+        },
+        {
+          "gold_test_name": "Squamous Epithelial Cells",
+          "predicted_test_name": "Squamous Epithelial Cells",
+          "checks": {
+            "value": true,
+            "unit": true,
+            "reference_range": false
+          },
+          "gold_row": {
+            "test_name": "Squamous Epithelial Cells",
+            "value": "1-2",
+            "unit": "/hpf",
+            "reference_range": "0 - 5"
+          },
+          "predicted_row": {
+            "test_name": "Squamous Epithelial Cells",
+            "value": "1-2",
+            "unit": "/hpf",
+            "reference_range": "0 - 5 /hpf",
+            "status": "normal"
+          }
+        },
+        {
+          "gold_test_name": "CRP",
+          "predicted_test_name": "CRP",
+          "checks": {
+            "value": true,
+            "unit": true,
+            "reference_range": false
+          },
+          "gold_row": {
+            "test_name": "CRP",
+            "value": "< 0.5",
+            "unit": "mg/L",
+            "reference_range": "< 5.0"
+          },
+          "predicted_row": {
+            "test_name": "CRP",
+            "value": "< 0.5",
+            "unit": "mg/L",
+            "reference_range": "< 5.0 mg/L",
+            "status": "normal"
+          }
+        }
+      ],
+      "output_file": "eval\\completeness_prompt\\report_06.json"
+    },
+    "report_11": {
+      "latency_seconds": 9.416,
+      "baseline_exact_rows": 54,
+      "experiment_exact_rows": 54,
+      "gold_rows": 54,
+      "baseline_exact_row_recall": 1.0,
+      "experiment_exact_row_recall": 1.0,
+      "baseline_name_matched_rows": 54,
+      "experiment_name_matched_rows": 54,
+      "missing_gold_names": [],
+      "extra_predicted_names": [],
+      "field_mismatches": [],
+      "output_file": "eval\\completeness_prompt\\report_11.json"
+    }
+  },
+  "experimental_instruction": "Experimental completeness-check instruction:\nAfter drafting the JSON, scan every provided page once more specifically for test rows not yet included. Add only test results visibly present in the report. Do not duplicate rows, infer missing results, or guess fields.",
+  "note": "Small two-report experiment only; not a full benchmark. The source extractor and supplied gold labels are unchanged.",
+  "mean_latency_seconds": 7.487
+}
