@@ -1,0 +1,88 @@
+{
+  "tests": [
+    {
+      "test_name": "Colour",
+      "value": "Dark Yellow",
+      "unit": null,
+      "reference_range": "Pale Yellow",
+      "status": "normal"
+    },
+    {
+      "test_name": "Clarity",
+      "value": "Clear",
+      "unit": null,
+      "reference_range": "Clear",
+      "status": "normal"
+    },
+    {
+      "test_name": "pH",
+      "value": 6.5,
+      "unit": null,
+      "reference_range": "5.0 - 8.0",
+      "status": "normal"
+    },
+    {
+      "test_name": "Specific Gravity",
+      "value": 1.02,
+      "unit": null,
+      "reference_range": "1.005 - 1.030",
+      "status": "normal"
+    },
+    {
+      "test_name": "Albumin",
+      "value": "Negative",
+      "unit": null,
+      "reference_range": "Negative",
+      "status": "normal"
+    },
+    {
+      "test_name": "Sugar",
+      "value": "Present (+)",
+      "unit": null,
+      "reference_range": "Negative",
+      "status": "high"
+    },
+    {
+      "test_name": "Ketones",
+      "value": "Negative",
+      "unit": null,
+      "reference_range": "Negative",
+      "status": "normal"
+    },
+    {
+      "test_name": "Leucocytes",
+      "value": "2-3",
+      "unit": "/hpf",
+      "reference_range": "0 - 5 /hpf",
+      "status": "normal"
+    },
+    {
+      "test_name": "Erythrocytes",
+      "value": "1-2",
+      "unit": "/hpf",
+      "reference_range": "Nil /hpf",
+      "status": "high"
+    },
+    {
+      "test_name": "Squamous Epithelial Cells",
+      "value": "1-2",
+      "unit": "/hpf",
+      "reference_range": "0 - 5 /hpf",
+      "status": "normal"
+    },
+    {
+      "test_name": "CRP",
+      "value": "< 0.5",
+      "unit": "mg/L",
+      "reference_range": "< 5.0 mg/L",
+      "status": "normal"
+    },
+    {
+      "test_name": "E.S.R.",
+      "value": 13.0,
+      "unit": "mm/hr",
+      "reference_range": "0 - 15 mm/hr",
+      "status": "normal"
+    }
+  ]
+}

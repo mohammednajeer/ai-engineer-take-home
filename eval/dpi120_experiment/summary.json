@@ -1,0 +1,59 @@
+{
+  "experiment": "Increase PDF rendering DPI from 60 to 120",
+  "model": "gemini-3.5-flash-lite",
+  "reports": [
+    "report_06",
+    "report_11"
+  ],
+  "control": "Saved reference_guard predictions from the same extractor/prompt/model at 60 DPI",
+  "important_caveat": "Generative outputs can vary between calls; this is a small two-report diagnostic, not a full-dataset controlled estimate.",
+  "aggregate_60_dpi": {
+    "gold_rows": 66,
+    "exact_rows": 60,
+    "exact_row_recall": 0.9090909090909091,
+    "mean_latency_seconds": 7.309
+  },
+  "aggregate_120_dpi": {
+    "gold_rows": 66,
+    "exact_rows": 61,
+    "exact_row_recall": 0.9242424242424242,
+    "mean_latency_seconds": 9.09
+  },
+  "per_report": {
+    "report_06": {
+      "baseline_60_dpi": {
+        "predicted_rows": 12,
+        "exact_rows": 6,
+        "gold_rows": 12,
+        "exact_row_recall": 0.5
+      },
+      "experiment_120_dpi": {
+        "predicted_rows": 12,
+        "exact_rows": 7,
+        "gold_rows": 12,
+        "exact_row_recall": 0.5833333333333334
+      },
+      "latency_120_dpi_seconds": 8.094,
+      "output_file": "eval\\dpi120_experiment\\report_06.json",
+      "latency_60_dpi_seconds": 4.914
+    },
+    "report_11": {
+      "baseline_60_dpi": {
+        "predicted_rows": 54,
+        "exact_rows": 54,
+        "gold_rows": 54,
+        "exact_row_recall": 1.0
+      },
+      "experiment_120_dpi": {
+        "predicted_rows": 54,
+        "exact_rows": 54,
+        "gold_rows": 54,
+        "exact_row_recall": 1.0
+      },
+      "latency_120_dpi_seconds": 10.085,
+      "output_file": "eval\\dpi120_experiment\\report_11.json",
+      "latency_60_dpi_seconds": 9.704
+    }
+  },
+  "cost_note": "This script measures latency and accuracy, not provider billing. Use provider billing/usage data for cost."
+}
