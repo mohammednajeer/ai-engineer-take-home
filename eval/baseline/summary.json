@@ -1,0 +1,262 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "measured_at_utc": "2026-10-27T04:18:10.497772+00:00",
+  "latency_seconds": {
+    "report_01": 4.939,
+    "report_02": 3.355,
+    "report_03": 2.777,
+    "report_05": 7.388,
+    "report_06": 7.384,
+    "report_08": 4.987,
+    "report_09": 6.266,
+    "report_11": 7.728
+  },
+  "latency_mean_seconds": 5.603,
+  "latency_median_seconds": 5.627,
+  "per_report": {
+    "report_01": {
+      "gold_rows": 14,
+      "predicted_rows": 14,
+      "name_matched_rows": 14,
+      "missing_gold_names": [],
+      "extra_predicted_names": [],
+      "name_precision": 1.0,
+      "name_recall": 1.0,
+      "value_accuracy_on_name_matches": 0.9285714285714286,
+      "unit_accuracy_on_name_matches": 1.0,
+      "reference_range_accuracy_on_name_matches": 1.0,
+      "exact_row_recall": 0.9285714285714286,
+      "exact_rows": 13,
+      "field_correct_counts": {
+        "value": 13,
+        "unit": 14,
+        "reference_range": 14
+      }
+    },
+    "report_02": {
+      "gold_rows": 16,
+      "predicted_rows": 16,
+      "name_matched_rows": 16,
+      "missing_gold_names": [],
+      "extra_predicted_names": [],
+      "name_precision": 1.0,
+      "name_recall": 1.0,
+      "value_accuracy_on_name_matches": 1.0,
+      "unit_accuracy_on_name_matches": 1.0,
+      "reference_range_accuracy_on_name_matches": 1.0,
+      "exact_row_recall": 1.0,
+      "exact_rows": 16,
+      "field_correct_counts": {
+        "value": 16,
+        "unit": 16,
+        "reference_range": 16
+      }
+    },
+    "report_03": {
+      "gold_rows": 8,
+      "predicted_rows": 8,
+      "name_matched_rows": 3,
+      "missing_gold_names": [
+        "TSH (Ultrasensitive)",
+        "Vit D Total",
+        "Vit B12",
+        "FBS",
+        "PPBS"
+      ],
+      "extra_predicted_names": [
+        "TSH",
+        "Vitamin D Total",
+        "Vitamin B12",
+        "Fasting Blood Sugar",
+        "Postprandial Blood Sugar"
+      ],
+      "name_precision": 0.375,
+      "name_recall": 0.375,
+      "value_accuracy_on_name_matches": 1.0,
+      "unit_accuracy_on_name_matches": 1.0,
+      "reference_range_accuracy_on_name_matches": 0.0,
+      "exact_row_recall": 0.0,
+      "exact_rows": 0,
+      "field_correct_counts": {
+        "value": 3,
+        "unit": 3,
+        "reference_range": 0
+      }
+    },
+    "report_05": {
+      "gold_rows": 14,
+      "predicted_rows": 14,
+      "name_matched_rows": 14,
+      "missing_gold_names": [],
+      "extra_predicted_names": [],
+      "name_precision": 1.0,
+      "name_recall": 1.0,
+      "value_accuracy_on_name_matches": 1.0,
+      "unit_accuracy_on_name_matches": 1.0,
+      "reference_range_accuracy_on_name_matches": 1.0,
+      "exact_row_recall": 1.0,
+      "exact_rows": 14,
+      "field_correct_counts": {
+        "value": 14,
+        "unit": 14,
+        "reference_range": 14
+      }
+    },
+    "report_06": {
+      "gold_rows": 12,
+      "predicted_rows": 12,
+      "name_matched_rows": 0,
+      "missing_gold_names": [
+        "Colour",
+        "Clarity",
+        "pH",
+        "Specific Gravity",
+        "Albumin",
+        "Sugar",
+        "Ketones",
+        "Leucocytes",
+        "Erythrocytes",
+        "Squamous Epithelial Cells",
+        "CRP",
+        "E.S.R. (Westergren)"
+      ],
+      "extra_predicted_names": [
+        "Urine Color",
+        "Urine Clarity",
+        "Urine pH",
+        "Urine Specific Gravity",
+        "Urine Albumin",
+        "Urine Sugar",
+        "Urine Ketones",
+        "Urine Leucocytes",
+        "Urine Erythrocytes",
+        "Urine Squamous Epithelial Cells",
+        "C-Reactive Protein",
+        "Erythrocyte Sedimentation Rate"
+      ],
+      "name_precision": 0.0,
+      "name_recall": 0.0,
+      "value_accuracy_on_name_matches": 0.0,
+      "unit_accuracy_on_name_matches": 0.0,
+      "reference_range_accuracy_on_name_matches": 0.0,
+      "exact_row_recall": 0.0,
+      "exact_rows": 0,
+      "field_correct_counts": {
+        "value": 0,
+        "unit": 0,
+        "reference_range": 0
+      }
+    },
+    "report_08": {
+      "gold_rows": 6,
+      "predicted_rows": 6,
+      "name_matched_rows": 6,
+      "missing_gold_names": [],
+      "extra_predicted_names": [],
+      "name_precision": 1.0,
+      "name_recall": 1.0,
+      "value_accuracy_on_name_matches": 1.0,
+      "unit_accuracy_on_name_matches": 1.0,
+      "reference_range_accuracy_on_name_matches": 1.0,
+      "exact_row_recall": 1.0,
+      "exact_rows": 6,
+      "field_correct_counts": {
+        "value": 6,
+        "unit": 6,
+        "reference_range": 6
+      }
+    },
+    "report_09": {
+      "gold_rows": 14,
+      "predicted_rows": 14,
+      "name_matched_rows": 14,
+      "missing_gold_names": [],
+      "extra_predicted_names": [],
+      "name_precision": 1.0,
+      "name_recall": 1.0,
+      "value_accuracy_on_name_matches": 1.0,
+      "unit_accuracy_on_name_matches": 1.0,
+      "reference_range_accuracy_on_name_matches": 0.9285714285714286,
+      "exact_row_recall": 0.9285714285714286,
+      "exact_rows": 13,
+      "field_correct_counts": {
+        "value": 14,
+        "unit": 14,
+        "reference_range": 13
+      }
+    },
+    "report_11": {
+      "gold_rows": 54,
+      "predicted_rows": 30,
+      "name_matched_rows": 29,
+      "missing_gold_names": [
+        "Hemoglobin (Hb)",
+        "Urea",
+        "Creatinine",
+        "Serum Uric Acid",
+        "Sodium (Na+)",
+        "Potassium (K+)",
+        "Chloride (Cl-)",
+        "Triiodothyronine (T3)",
+        "Thyroxine (T4)",
+        "Thyroid Stimulating Hormone",
+        "Glycosylated Haemoglobin (HbA1c)",
+        "Glucose - Fasting",
+        "Glucose - PP",
+        "25-Hydroxy Vitamin D",
+        "Cyanocobalamin (B12)",
+        "Color",
+        "Appearance",
+        "Reaction (pH)",
+        "Sp. Gravity",
+        "Urine Protein",
+        "Urine Glucose",
+        "Ketone Bodies",
+        "Pus Cells (WBC)",
+        "RBC",
+        "Epithelial Cells"
+      ],
+      "extra_predicted_names": [
+        "Hemoglobin"
+      ],
+      "name_precision": 0.9666666666666667,
+      "name_recall": 0.5370370370370371,
+      "value_accuracy_on_name_matches": 1.0,
+      "unit_accuracy_on_name_matches": 1.0,
+      "reference_range_accuracy_on_name_matches": 1.0,
+      "exact_row_recall": 0.5370370370370371,
+      "exact_rows": 29,
+      "field_correct_counts": {
+        "value": 29,
+        "unit": 29,
+        "reference_range": 29
+      }
+    }
+  },
+  "aggregate": {
+    "labelled_reports": 8,
+    "gold_rows": 138,
+    "predicted_rows": 114,
+    "name_matched_rows": 96,
+    "name_precision": 0.8421052631578947,
+    "name_recall": 0.6956521739130435,
+    "value_accuracy_on_name_matches": 0.9895833333333334,
+    "unit_accuracy_on_name_matches": 1.0,
+    "reference_range_accuracy_on_name_matches": 0.9583333333333334,
+    "exact_rows": 91,
+    "exact_row_recall": 0.6594202898550725,
+    "field_correct_counts": {
+      "value": 95,
+      "unit": 96,
+      "reference_range": 92
+    },
+    "metric_notes": [
+      "Names are normalized for case, punctuation, haemoglobin/hemoglobin spelling, and PCV alias.",
+      "Numeric values use an absolute tolerance of 0.01; units are compared case-insensitively.",
+      "Reference ranges ignore whitespace and normalize dash characters.",
+      "Field accuracies are among rows whose test names matched; missing/extra rows are reflected in name recall/precision.",
+      "These are raw scores against the supplied gold labels; label issues must be documented separately, not silently edited."
+    ]
+  },
+  "cost_note": "This runner records latency, not provider billing. Record actual spend from the provider dashboard or calculate an estimate from current model pricing and usage; do not assume cost is zero."
+}

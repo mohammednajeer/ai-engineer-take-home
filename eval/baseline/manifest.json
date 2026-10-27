@@ -1,0 +1,54 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "created_at_utc": "2026-10-27T04:17:25.619289+00:00",
+  "reports": {
+    "report_01": {
+      "status": "success",
+      "latency_seconds": 4.939,
+      "report_file": "reports\\report_01.pdf",
+      "output_file": "eval\\baseline\\report_01.json"
+    },
+    "report_02": {
+      "status": "success",
+      "latency_seconds": 3.355,
+      "report_file": "reports\\report_02.pdf",
+      "output_file": "eval\\baseline\\report_02.json"
+    },
+    "report_03": {
+      "status": "success",
+      "latency_seconds": 2.777,
+      "report_file": "reports\\report_03.pdf",
+      "output_file": "eval\\baseline\\report_03.json"
+    },
+    "report_05": {
+      "status": "success",
+      "latency_seconds": 7.388,
+      "report_file": "reports\\report_05.pdf",
+      "output_file": "eval\\baseline\\report_05.json"
+    },
+    "report_06": {
+      "status": "success",
+      "latency_seconds": 7.384,
+      "report_file": "reports\\report_06.pdf",
+      "output_file": "eval\\baseline\\report_06.json"
+    },
+    "report_08": {
+      "status": "success",
+      "latency_seconds": 4.987,
+      "report_file": "reports\\report_08.jpg",
+      "output_file": "eval\\baseline\\report_08.json"
+    },
+    "report_09": {
+      "status": "success",
+      "latency_seconds": 6.266,
+      "report_file": "reports\\report_09.jpg",
+      "output_file": "eval\\baseline\\report_09.json"
+    },
+    "report_11": {
+      "status": "success",
+      "latency_seconds": 7.728,
+      "report_file": "reports\\report_11.pdf",
+      "output_file": "eval\\baseline\\report_11.json"
+    }
+  }
+}
