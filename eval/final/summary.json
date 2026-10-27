@@ -1,0 +1,9 @@
+{
+  "successful_reports": 8,
+  "expected_reports": 8,
+  "mean_latency_seconds_successful": 9.36,
+  "reports_with_token_usage": 8,
+  "estimated_paid_tier_cost_total_usd_for_metered_reports": 0.0220965,
+  "estimated_paid_tier_cost_mean_usd_for_metered_reports": 0.00276206,
+  "actual_billed_cost_note": "This is a paid-tier estimate from API-reported token counts, not an invoice. If these calls were served by the free tier, actual API usage cost is $0; verify the project's billing/usage dashboard."
+}

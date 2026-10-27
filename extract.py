@@ -138,6 +138,23 @@ def call_model(images: list[tuple[str, str]]) -> str:
         raise RuntimeError(
             "Gemini connection failed; check network/TLS access and retry. See README.md."
         ) from None
+    
+    
+    usage = result.get("usageMetadata", {})
+    prompt_tokens = usage.get("promptTokenCount")
+    total_tokens = usage.get("totalTokenCount")
+
+    if isinstance(prompt_tokens, int) and isinstance(total_tokens, int):
+        print(
+            "GEMINI_USAGE_JSON:" + json.dumps({
+                "prompt_tokens": prompt_tokens,
+                "output_tokens": max(0, total_tokens - prompt_tokens),
+                "total_tokens": total_tokens,
+            }),
+            file=sys.stderr,
+            flush=True,
+        )
+
 
     candidate = result.get("candidates", [{}])[0]
     return "".join(
@@ -194,6 +211,6 @@ if __name__ == "__main__":
     if len(sys.argv) != 2:
         sys.exit(__doc__)
     try:
-        print(json.dumps(extract(Path(sys.argv[1])), indent=2, ensure_ascii=False))
+        print(json.dumps(extract(Path(sys.argv[1])), indent=2, ensure_ascii=True))
     except RuntimeError as error:
         sys.exit(str(error))

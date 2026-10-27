@@ -1,0 +1,339 @@
+{
+  "scoring_mode": "alias-aware; supplied gold labels unchanged",
+  "prediction_dir": "eval\\final",
+  "labelled_reports": 8,
+  "gold_rows": 138,
+  "predicted_rows": 138,
+  "name_matched_rows": 135,
+  "name_precision": 0.9782608695652174,
+  "name_recall": 0.9782608695652174,
+  "value_accuracy_on_name_matches": 0.9925925925925926,
+  "unit_accuracy_on_name_matches": 1.0,
+  "reference_range_accuracy_on_name_matches": 0.9777777777777777,
+  "exact_rows": 131,
+  "exact_row_recall": 0.9492753623188406,
+  "field_correct_counts": {
+    "value": 134,
+    "unit": 135,
+    "reference_range": 132
+  },
+  "metrics_definitions": {
+    "name_precision": "matched test-name rows / predicted rows",
+    "name_recall": "matched test-name rows / gold rows",
+    "field_accuracy": "field matches among name-matched rows only",
+    "exact_row_recall": "rows matching name, value, unit, and reference range / gold rows"
+  },
+  "alias_map_compact_keys": {
+    "haemoglobin": "hemoglobin",
+    "hemoglobinhb": "hemoglobin",
+    "packedcellvolume": "pcv",
+    "packedcellvolumepcv": "pcv",
+    "pcv": "pcv",
+    "tshultrasensitive": "tsh",
+    "vitdtotal": "vitamindtotal",
+    "vitb12": "vitaminb12",
+    "fbs": "fastingbloodsugar",
+    "ppbs": "postprandialbloodsugar",
+    "glycatedhb": "hba1c",
+    "glycosylatedhemoglobinhba1c": "hba1c",
+    "glycatedhaemoglobinhba1c": "hba1c",
+    "urinecolor": "color",
+    "urineclarity": "clarity",
+    "appearance": "clarity",
+    "reactionph": "ph",
+    "urineph": "ph",
+    "specificgravity": "specificgravity",
+    "spgravity": "specificgravity",
+    "urinespecificgravity": "specificgravity",
+    "urinealbumin": "albumin",
+    "sugar": "urinesugar",
+    "urinesugar": "urinesugar",
+    "urineglucose": "urinesugar",
+    "ketonebodies": "ketones",
+    "urineketones": "ketones",
+    "leucocytes": "leucocytes",
+    "urineleucocytes": "leucocytes",
+    "erythrocytes": "erythrocytes",
+    "urineerythrocytes": "erythrocytes",
+    "squamousepithelialcells": "squamousepithelialcells",
+    "urinesquamousepithelialcells": "squamousepithelialcells",
+    "crp": "creactiveprotein",
+    "creactiveprotein": "creactiveprotein",
+    "esrwestergren": "erythrocytesedimentationrate",
+    "erythrocytesedimentationrate": "erythrocytesedimentationrate"
+  },
+  "per_report": [
+    {
+      "report_id": "report_01",
+      "gold_rows": 14,
+      "predicted_rows": 14,
+      "name_matched_rows": 14,
+      "name_precision": 1.0,
+      "name_recall": 1.0,
+      "value_accuracy_on_name_matches": 0.9285714285714286,
+      "unit_accuracy_on_name_matches": 1.0,
+      "reference_range_accuracy_on_name_matches": 1.0,
+      "exact_rows": 13,
+      "exact_row_recall": 0.9285714285714286,
+      "field_correct_counts": {
+        "value": 13,
+        "unit": 14,
+        "reference_range": 14
+      },
+      "missing_gold_names": [],
+      "extra_predicted_names": [],
+      "field_mismatches": [
+        {
+          "gold_test_name": "Platelet Count",
+          "predicted_test_name": "Platelet Count",
+          "checks": {
+            "value": false,
+            "unit": true,
+            "reference_range": true
+          },
+          "gold_row": {
+            "test_name": "Platelet Count",
+            "value": "304000",
+            "unit": "/cumm",
+            "reference_range": "150000 - 410000"
+          },
+          "predicted_row": {
+            "test_name": "Platelet Count",
+            "value": 340000.0,
+            "unit": "/cumm",
+            "reference_range": "150000 - 410000",
+            "status": "normal"
+          }
+        }
+      ]
+    },
+    {
+      "report_id": "report_02",
+      "gold_rows": 16,
+      "predicted_rows": 16,
+      "name_matched_rows": 16,
+      "name_precision": 1.0,
+      "name_recall": 1.0,
+      "value_accuracy_on_name_matches": 1.0,
+      "unit_accuracy_on_name_matches": 1.0,
+      "reference_range_accuracy_on_name_matches": 1.0,
+      "exact_rows": 16,
+      "exact_row_recall": 1.0,
+      "field_correct_counts": {
+        "value": 16,
+        "unit": 16,
+        "reference_range": 16
+      },
+      "missing_gold_names": [],
+      "extra_predicted_names": [],
+      "field_mismatches": []
+    },
+    {
+      "report_id": "report_03",
+      "gold_rows": 8,
+      "predicted_rows": 8,
+      "name_matched_rows": 8,
+      "name_precision": 1.0,
+      "name_recall": 1.0,
+      "value_accuracy_on_name_matches": 1.0,
+      "unit_accuracy_on_name_matches": 1.0,
+      "reference_range_accuracy_on_name_matches": 1.0,
+      "exact_rows": 8,
+      "exact_row_recall": 1.0,
+      "field_correct_counts": {
+        "value": 8,
+        "unit": 8,
+        "reference_range": 8
+      },
+      "missing_gold_names": [],
+      "extra_predicted_names": [],
+      "field_mismatches": []
+    },
+    {
+      "report_id": "report_05",
+      "gold_rows": 14,
+      "predicted_rows": 14,
+      "name_matched_rows": 14,
+      "name_precision": 1.0,
+      "name_recall": 1.0,
+      "value_accuracy_on_name_matches": 1.0,
+      "unit_accuracy_on_name_matches": 1.0,
+      "reference_range_accuracy_on_name_matches": 1.0,
+      "exact_rows": 14,
+      "exact_row_recall": 1.0,
+      "field_correct_counts": {
+        "value": 14,
+        "unit": 14,
+        "reference_range": 14
+      },
+      "missing_gold_names": [],
+      "extra_predicted_names": [],
+      "field_mismatches": []
+    },
+    {
+      "report_id": "report_06",
+      "gold_rows": 12,
+      "predicted_rows": 12,
+      "name_matched_rows": 9,
+      "name_precision": 0.75,
+      "name_recall": 0.75,
+      "value_accuracy_on_name_matches": 1.0,
+      "unit_accuracy_on_name_matches": 1.0,
+      "reference_range_accuracy_on_name_matches": 0.6666666666666666,
+      "exact_rows": 6,
+      "exact_row_recall": 0.5,
+      "field_correct_counts": {
+        "value": 9,
+        "unit": 9,
+        "reference_range": 6
+      },
+      "missing_gold_names": [
+        "Colour",
+        "CRP",
+        "E.S.R. (Westergren)"
+      ],
+      "extra_predicted_names": [
+        "Urine Colour",
+        "C-Reactive Protein (CRP)",
+        "Erythrocyte Sedimentation Rate (ESR)"
+      ],
+      "field_mismatches": [
+        {
+          "gold_test_name": "Leucocytes",
+          "predicted_test_name": "Urine Leucocytes",
+          "checks": {
+            "value": true,
+            "unit": true,
+            "reference_range": false
+          },
+          "gold_row": {
+            "test_name": "Leucocytes",
+            "value": "2-3",
+            "unit": "/hpf",
+            "reference_range": "0 - 5"
+          },
+          "predicted_row": {
+            "test_name": "Urine Leucocytes",
+            "value": "2-3",
+            "unit": "/hpf",
+            "reference_range": "0 - 5 /hpf",
+            "status": "normal"
+          }
+        },
+        {
+          "gold_test_name": "Erythrocytes",
+          "predicted_test_name": "Urine Erythrocytes",
+          "checks": {
+            "value": true,
+            "unit": true,
+            "reference_range": false
+          },
+          "gold_row": {
+            "test_name": "Erythrocytes",
+            "value": "1-2",
+            "unit": "/hpf",
+            "reference_range": "Nil"
+          },
+          "predicted_row": {
+            "test_name": "Urine Erythrocytes",
+            "value": "1-2",
+            "unit": "/hpf",
+            "reference_range": "Nil /hpf",
+            "status": "high"
+          }
+        },
+        {
+          "gold_test_name": "Squamous Epithelial Cells",
+          "predicted_test_name": "Urine Squamous Epithelial Cells",
+          "checks": {
+            "value": true,
+            "unit": true,
+            "reference_range": false
+          },
+          "gold_row": {
+            "test_name": "Squamous Epithelial Cells",
+            "value": "1-2",
+            "unit": "/hpf",
+            "reference_range": "0 - 5"
+          },
+          "predicted_row": {
+            "test_name": "Urine Squamous Epithelial Cells",
+            "value": "1-2",
+            "unit": "/hpf",
+            "reference_range": "0 - 5 /hpf",
+            "status": "normal"
+          }
+        }
+      ]
+    },
+    {
+      "report_id": "report_08",
+      "gold_rows": 6,
+      "predicted_rows": 6,
+      "name_matched_rows": 6,
+      "name_precision": 1.0,
+      "name_recall": 1.0,
+      "value_accuracy_on_name_matches": 1.0,
+      "unit_accuracy_on_name_matches": 1.0,
+      "reference_range_accuracy_on_name_matches": 1.0,
+      "exact_rows": 6,
+      "exact_row_recall": 1.0,
+      "field_correct_counts": {
+        "value": 6,
+        "unit": 6,
+        "reference_range": 6
+      },
+      "missing_gold_names": [],
+      "extra_predicted_names": [],
+      "field_mismatches": []
+    },
+    {
+      "report_id": "report_09",
+      "gold_rows": 14,
+      "predicted_rows": 14,
+      "name_matched_rows": 14,
+      "name_precision": 1.0,
+      "name_recall": 1.0,
+      "value_accuracy_on_name_matches": 1.0,
+      "unit_accuracy_on_name_matches": 1.0,
+      "reference_range_accuracy_on_name_matches": 1.0,
+      "exact_rows": 14,
+      "exact_row_recall": 1.0,
+      "field_correct_counts": {
+        "value": 14,
+        "unit": 14,
+        "reference_range": 14
+      },
+      "missing_gold_names": [],
+      "extra_predicted_names": [],
+      "field_mismatches": []
+    },
+    {
+      "report_id": "report_11",
+      "gold_rows": 54,
+      "predicted_rows": 54,
+      "name_matched_rows": 54,
+      "name_precision": 1.0,
+      "name_recall": 1.0,
+      "value_accuracy_on_name_matches": 1.0,
+      "unit_accuracy_on_name_matches": 1.0,
+      "reference_range_accuracy_on_name_matches": 1.0,
+      "exact_rows": 54,
+      "exact_row_recall": 1.0,
+      "field_correct_counts": {
+        "value": 54,
+        "unit": 54,
+        "reference_range": 54
+      },
+      "missing_gold_names": [],
+      "extra_predicted_names": [],
+      "field_mismatches": []
+    }
+  ],
+  "limitations": [
+    "Scores are against supplied labels, which may contain errors; suspicious labels must be verified against the source report.",
+    "The alias map only normalizes known naming variants and should be reviewed; do not add aliases just to raise scores.",
+    "Value metrics use absolute numeric tolerance 0.01; non-numeric values compare as normalized strings.",
+    "Latency and cost are measured separately from this scoring script."
+  ]
+}

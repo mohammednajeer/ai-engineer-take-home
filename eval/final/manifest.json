@@ -1,0 +1,156 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "created_at_utc": "2026-10-27T06:39:58.564028+00:00",
+  "paid_tier_rates_usd_per_million_tokens": {
+    "input": 0.3,
+    "output": 2.5
+  },
+  "pricing_source": "https://ai.google.dev/gemini-api/docs/pricing (checked 2026-10-27)",
+  "reports": {
+    "report_01": {
+      "status": "success",
+      "latency_seconds": 13.731,
+      "report_file": "reports\\report_01.pdf",
+      "output_file": "eval\\final\\report_01.json",
+      "extracted_rows": 14,
+      "usage": {
+        "prompt_tokens": 1361,
+        "output_tokens": 654,
+        "total_tokens": 2015,
+        "estimated_paid_tier_cost_usd": 0.0020433,
+        "pricing_rates_usd_per_million": {
+          "input": 0.3,
+          "output": 2.5
+        }
+      }
+    },
+    "report_02": {
+      "status": "success",
+      "latency_seconds": 7.589,
+      "report_file": "reports\\report_02.pdf",
+      "output_file": "eval\\final\\report_02.json",
+      "extracted_rows": 16,
+      "usage": {
+        "prompt_tokens": 1361,
+        "output_tokens": 738,
+        "total_tokens": 2099,
+        "estimated_paid_tier_cost_usd": 0.0022533,
+        "pricing_rates_usd_per_million": {
+          "input": 0.3,
+          "output": 2.5
+        }
+      }
+    },
+    "report_03": {
+      "status": "success",
+      "latency_seconds": 5.312,
+      "report_file": "reports\\report_03.pdf",
+      "output_file": "eval\\final\\report_03.json",
+      "extracted_rows": 8,
+      "usage": {
+        "prompt_tokens": 1361,
+        "output_tokens": 363,
+        "total_tokens": 1724,
+        "estimated_paid_tier_cost_usd": 0.0013158,
+        "pricing_rates_usd_per_million": {
+          "input": 0.3,
+          "output": 2.5
+        }
+      }
+    },
+    "report_05": {
+      "status": "success",
+      "latency_seconds": 14.917,
+      "report_file": "reports\\report_05.pdf",
+      "output_file": "eval\\final\\report_05.json",
+      "extracted_rows": 14,
+      "usage": {
+        "prompt_tokens": 1361,
+        "output_tokens": 651,
+        "total_tokens": 2012,
+        "estimated_paid_tier_cost_usd": 0.0020358,
+        "pricing_rates_usd_per_million": {
+          "input": 0.3,
+          "output": 2.5
+        }
+      }
+    },
+    "report_06": {
+      "status": "success",
+      "latency_seconds": 8.395,
+      "report_file": "reports\\report_06.pdf",
+      "output_file": "eval\\final\\report_06.json",
+      "extracted_rows": 12,
+      "usage": {
+        "prompt_tokens": 1361,
+        "output_tokens": 728,
+        "total_tokens": 2089,
+        "estimated_paid_tier_cost_usd": 0.0022283,
+        "pricing_rates_usd_per_million": {
+          "input": 0.3,
+          "output": 2.5
+        }
+      }
+    },
+    "report_08": {
+      "status": "success",
+      "latency_seconds": 3.996,
+      "report_file": "reports\\report_08.jpg",
+      "output_file": "eval\\final\\report_08.json",
+      "extracted_rows": 6,
+      "usage": {
+        "prompt_tokens": 1361,
+        "output_tokens": 267,
+        "total_tokens": 1628,
+        "estimated_paid_tier_cost_usd": 0.0010758,
+        "pricing_rates_usd_per_million": {
+          "input": 0.3,
+          "output": 2.5
+        }
+      }
+    },
+    "report_09": {
+      "status": "success",
+      "latency_seconds": 6.0,
+      "report_file": "reports\\report_09.jpg",
+      "output_file": "eval\\final\\report_09.json",
+      "extracted_rows": 14,
+      "usage": {
+        "prompt_tokens": 1361,
+        "output_tokens": 662,
+        "total_tokens": 2023,
+        "estimated_paid_tier_cost_usd": 0.0020633,
+        "pricing_rates_usd_per_million": {
+          "input": 0.3,
+          "output": 2.5
+        }
+      }
+    },
+    "report_11": {
+      "status": "success",
+      "latency_seconds": 14.942,
+      "report_file": "reports\\report_11.pdf",
+      "output_file": "eval\\final\\report_11.json",
+      "extracted_rows": 54,
+      "usage": {
+        "prompt_tokens": 2453,
+        "output_tokens": 3338,
+        "total_tokens": 5791,
+        "estimated_paid_tier_cost_usd": 0.0090809,
+        "pricing_rates_usd_per_million": {
+          "input": 0.3,
+          "output": 2.5
+        }
+      }
+    }
+  },
+  "summary": {
+    "successful_reports": 8,
+    "expected_reports": 8,
+    "mean_latency_seconds_successful": 9.36,
+    "reports_with_token_usage": 8,
+    "estimated_paid_tier_cost_total_usd_for_metered_reports": 0.0220965,
+    "estimated_paid_tier_cost_mean_usd_for_metered_reports": 0.00276206,
+    "actual_billed_cost_note": "This is a paid-tier estimate from API-reported token counts, not an invoice. If these calls were served by the free tier, actual API usage cost is $0; verify the project's billing/usage dashboard."
+  }
+}
